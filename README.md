@@ -49,6 +49,6 @@ Models are trained with the datasets used in the paper, including commentaries u
 
 # Caveats
 
-⚠️ These models are beta-tryouts. They are mainly release because part of the training data is still under copyright and cannot be released. **This does by no means imply that our models are ready for use in production**. As shown in the results section, some regions remain poorly recognized. 
+⚠️ These models are beta-tryouts. They are mainly released because part of the training data is still under copyright and cannot be released. **This does by no means imply that our models are ready for use in production**. As shown in the results section, some regions remain poorly recognized. 
 
-⚠️ Our [experiments](PAPER_LINK) also show that our models perform poorly on unseen layout types and editions. For instance, evaluating a model on a set of completely unseen commentaries causes a performance drop of about 30% with respect to the in-domain test-set. The same drop is to be expected with your data. We therefore would recommend continuing training on a few in-domain instances to mitigate this. 
+⚠️ Our [experiments](PAPER_LINK) also show that our models perform poorly on unseen layout types and editions. Evaluating a model on a set of completely unseen commentaries causes a performance drop of about 30% with respect to the in-domain test-set. The same drop is to be expected with your data. We therefore would recommend continuing training on a few in-domain instances to mitigate this. 
