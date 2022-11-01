@@ -61,6 +61,18 @@ Results are computed on the test set (see paper) using [mean-average-precision](
 | 0.690006852 | 0.483957231      | 0            | 0.83333331        | 0.75                  | 0.93403023          | 0.78166848            | 0.69999999       | 0.64651763           | 0.85653406           | 0.8403641                        | 0.71988797              | 0.66250002                 | 0.96583301               | 0.88592309               | 0.93956083       | 0.04          |
 
 
+## Examples
+
+Here's a quick example of a good prediction... 
+
+<img src="cu31924087948174_0087.png" width="400"/>
+
+...and of a bad prediction (in this case, two regions overlapping).
+
+<img src="Paduano1982_0012.png" width="400"/>
+
+
+
 # Caveats
 
 ⚠️ These models are beta-tryouts. They are mainly released because part of the training data is still under copyright and cannot be released. **This does by no means imply that our models are ready for use in production**. As shown in the results section, some regions remain poorly recognized. 
