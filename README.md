@@ -46,6 +46,20 @@ Models are trained with the datasets used in the paper, including commentaries u
 
 # Results
 
+Results are computed on the test set (see paper) using [mean-average-precision](https://github.com/bes-dev/mean_average_precision), which yields results inferior to YOLOv5's native evaluation tool. 
+
+## Coarse model
+
+| mAP   | MainZone | MarginTextZone | NumberingZone | RunningTitleZone | TitlePageZone |
+|-------|----------|----------------|---------------|------------------|---------------|
+| 0.662 | 0.862    | 0.750          | 0.892         | 0.950            | 0.133         |
+
+## Fine model
+
+| mAP         | CustomZone:other | MainZone:ToC | MainZone:appendix | MainZone:bibliography | MainZone:commentary | MainZone:introduction | MainZone:preface | MainZone:primaryText | MainZone:translation | MarginTextZone:criticalApparatus | MarginTextZone:footnote | MarginTextZone:printedNote | NumberingZone:pageNumber | NumberingZone:textNumber | RunningTitleZone | TitlePageZone |
+|-------------|------------------|--------------|-------------------|-----------------------|---------------------|-----------------------|------------------|----------------------|----------------------|----------------------------------|-------------------------|----------------------------|--------------------------|--------------------------|------------------|---------------|
+| 0.690006852 | 0.483957231      | 0            | 0.83333331        | 0.75                  | 0.93403023          | 0.78166848            | 0.69999999       | 0.64651763           | 0.85653406           | 0.8403641                        | 0.71988797              | 0.66250002                 | 0.96583301               | 0.88592309               | 0.93956083       | 0.04          |
+
 
 # Caveats
 
