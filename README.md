@@ -31,7 +31,8 @@ Each model is trained with its respective label set (`coarse` or `fine`).
 
 # Data
 
-Models are trained with the datasets used in the paper, including commentaries under copyright commentaries. Public domain data has been released and can be found [here](https://github.com/AjaxMultiCommentary/GT-commentaries-layout). 
+Models are trained with the datasets used in the paper, including commentaries under copyright commentaries. Public domain data has been released and can be found [here](https://github.com/AjaxMultiCommentary/GT-commentaries-layout). Please refer to `stats.txt` for detailed statistics about the data. 
+
 
 # Training parameters
 
@@ -65,11 +66,11 @@ Results are computed on the test set (see paper) using [mean-average-precision](
 
 Here's a quick example of a good prediction... 
 
-<img src="cu31924087948174_0087.png" width="400"/>
+![Good Prediction](./examples/cu31924087948174_0087.png)
 
 ...and of a bad prediction (in this case, two regions overlapping).
 
-<img src="Paduano1982_0012.png" width="400"/>
+![Bad Prediction](./examples/cu31924087948174_0011.png)
 
 
 
