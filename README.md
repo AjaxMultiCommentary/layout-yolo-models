@@ -2,6 +2,12 @@
 
 `layout-yolo-models` contains two [YOLOv5m](https://pytorch.org/hub/ultralytics_yolov5/#:~:text=YOLOv5%20%F0%9F%9A%80%20is%20a%20family,to%20ONNX%2C%20CoreML%20and%20TFLite) checkpoints trained for page layout analysis on classical commentaries. Detailed information can be found in [this paper](PAPER_LINK). 
 
+## Demo
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mromanello/d59b9d5f5c25f36ee088ca7b566fee25/HEAD?labpath=demo.ipynb) 
+
+[This notebook](https://mybinder.org/v2/gh/mromanello/d59b9d5f5c25f36ee088ca7b566fee25/HEAD?labpath=demo.ipynb) offers a quick demo of how the models can be used to segment other commentaries available on the Internet Archive. 
+
 ## Data
 
 Models are trained with the datasets used in the paper, including under copyright commentaries. Public domain data has been released as the [GT4HistCommentLayout](https://github.com/AjaxMultiCommentary/GT-commentaries-layout) dataset. Please refer to [`stats.txt`](./stats.txt) for detailed statistics about the data. 
@@ -100,8 +106,10 @@ If you use this dataset in your research, please cite the following publication:
   booktitle = {Proceedings of the {{Conference}} on {{Computational Humanities Research}} 2022},
   author = {{Najem-Meyer}, Sven and Romanello, Matteo},
   year = {2022},
+  pages = {36--54},
   publisher = {{CEUR-WS}},
-  address = {{Antwerp}}
+  address = {{Antwerp}},
+  url = {https://ceur-ws.org/Vol-3290/long_paper8670.pdf}
 }
 ```
 
